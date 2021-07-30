@@ -1,0 +1,88 @@
+/* feuille de style pour ordinateur */
+
+@media (min-width: 1200px) {
+   
+/* header */
+header {
+    display: block;
+    background: var(--green) url(../images/button_wave.svg) no-repeat;
+    text-align: center;
+
+}
+header p{
+    font-size: 1em;
+    color: white;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.displaymenu{
+    display: block;
+}
+.displayburger{
+    display: none;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+/* main */
+.divsize{
+    width: 60%;
+    margin: auto;
+
+}
+.Section1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align: left;
+    display: flex;
+}
+.Section1 h1 {
+    text-align: left;
+}
+.Section1 p {
+    text-align: left;
+}
+.freshsection {
+    background-color: var(--green-light);
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    text-align: left;
+    display: flex;
+}
+.freshsection h2 {
+    text-align: left;
+}
+.freshsection p {
+    text-align: left;
+}
+.orderimg {
+    display: flex;
+    /* pour ordi   */
+    flex-direction: row;
+    /* pour mobile 
+    *flex-direction: column; */
+}
+.Section2 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align: center;
+}
+.divfootersize {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+}
